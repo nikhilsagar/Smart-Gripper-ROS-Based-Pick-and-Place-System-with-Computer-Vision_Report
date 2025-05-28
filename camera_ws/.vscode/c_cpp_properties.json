@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/nikhil/copy/install/robot_arm_msgs/include/**",
+        "/home/nikhil/ros2_ws/install/my_robot_interfaces/include/**",
+        "/home/nikhil/bumperbot_ws/install/bumperbot_cpp_examples/include/**",
+        "/home/nikhil/bumperbot_ws/install/bumperbot_msgs/include/**",
+        "/home/nikhil/bumperbot_ws/install/bumperbot_localization/include/**",
+        "/home/nikhil/bumperbot_ws/install/bumperbot_firmware/include/**",
+        "/home/nikhil/bumperbot_ws/install/bumperbot_controller/include/**",
+        "/home/nikhil/arm_ws/install/robot_arm_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

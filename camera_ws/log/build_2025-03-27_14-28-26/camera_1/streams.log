@@ -1,0 +1,21 @@
+[0.712s] Invoking command in '/home/nikhil/camera_ws/build/camera_1': PYTHONPATH=/home/nikhil/camera_ws/build/camera_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nikhil/camera_ws/build/camera_1/build --no-deps symlink_data
+[1.010s] running develop
+[1.197s] running egg_info
+[1.197s] writing camera_1.egg-info/PKG-INFO
+[1.197s] writing dependency_links to camera_1.egg-info/dependency_links.txt
+[1.197s] writing entry points to camera_1.egg-info/entry_points.txt
+[1.199s] writing requirements to camera_1.egg-info/requires.txt
+[1.199s] writing top-level names to camera_1.egg-info/top_level.txt
+[1.200s] reading manifest file 'camera_1.egg-info/SOURCES.txt'
+[1.201s] writing manifest file 'camera_1.egg-info/SOURCES.txt'
+[1.203s] running build_ext
+[1.204s] Creating /home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera-1.egg-link (link to .)
+[1.206s] Installing camera_1 script to /home/nikhil/camera_ws/install/camera_1/lib/camera_1
+[1.206s] Installing check_1 script to /home/nikhil/camera_ws/install/camera_1/lib/camera_1
+[1.206s] Installing detect_aruco script to /home/nikhil/camera_ws/install/camera_1/lib/camera_1
+[1.206s] Installing generate_aruco script to /home/nikhil/camera_ws/install/camera_1/lib/camera_1
+[1.206s] Installing map_objects script to /home/nikhil/camera_ws/install/camera_1/lib/camera_1
+[1.206s] 
+[1.207s] Installed /home/nikhil/camera_ws/build/camera_1
+[1.207s] running symlink_data
+[1.233s] Invoked command in '/home/nikhil/camera_ws/build/camera_1' returned '0': PYTHONPATH=/home/nikhil/camera_ws/build/camera_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nikhil/camera_ws/build/camera_1/build --no-deps symlink_data

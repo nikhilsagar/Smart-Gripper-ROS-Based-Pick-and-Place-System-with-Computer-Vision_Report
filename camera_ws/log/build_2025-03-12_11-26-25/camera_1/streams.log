@@ -1,0 +1,26 @@
+[0.716s] Invoking command in '/home/nikhil/camera_ws/src/camera_1': PYTHONPATH=/home/nikhil/camera_ws/build/camera_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_1 build --build-base /home/nikhil/camera_ws/build/camera_1/build install --record /home/nikhil/camera_ws/build/camera_1/install.log --single-version-externally-managed install_data
+[1.009s] running egg_info
+[1.010s] writing ../../build/camera_1/camera_1.egg-info/PKG-INFO
+[1.011s] writing dependency_links to ../../build/camera_1/camera_1.egg-info/dependency_links.txt
+[1.011s] writing entry points to ../../build/camera_1/camera_1.egg-info/entry_points.txt
+[1.012s] writing requirements to ../../build/camera_1/camera_1.egg-info/requires.txt
+[1.013s] writing top-level names to ../../build/camera_1/camera_1.egg-info/top_level.txt
+[1.015s] reading manifest file '../../build/camera_1/camera_1.egg-info/SOURCES.txt'
+[1.016s] writing manifest file '../../build/camera_1/camera_1.egg-info/SOURCES.txt'
+[1.017s] running build
+[1.017s] running build_py
+[1.018s] copying camera_1/detect_aruco.py -> /home/nikhil/camera_ws/build/camera_1/build/lib/camera_1
+[1.018s] running install
+[1.018s] running install_lib
+[1.019s] copying /home/nikhil/camera_ws/build/camera_1/build/lib/camera_1/detect_aruco.py -> /home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera_1
+[1.020s] byte-compiling /home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera_1/detect_aruco.py to detect_aruco.cpython-310.pyc
+[1.023s] running install_data
+[1.023s] running install_egg_info
+[1.025s] removing '/home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera_1-0.0.0-py3.10.egg-info' (and everything under it)
+[1.027s] Copying ../../build/camera_1/camera_1.egg-info to /home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera_1-0.0.0-py3.10.egg-info
+[1.027s] running install_scripts
+[1.050s] Installing camera_1 script to /home/nikhil/camera_ws/install/camera_1/lib/camera_1
+[1.050s] Installing detect_aruco script to /home/nikhil/camera_ws/install/camera_1/lib/camera_1
+[1.050s] Installing generate_aruco script to /home/nikhil/camera_ws/install/camera_1/lib/camera_1
+[1.050s] writing list of installed files to '/home/nikhil/camera_ws/build/camera_1/install.log'
+[1.074s] Invoked command in '/home/nikhil/camera_ws/src/camera_1' returned '0': PYTHONPATH=/home/nikhil/camera_ws/build/camera_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_1 build --build-base /home/nikhil/camera_ws/build/camera_1/build install --record /home/nikhil/camera_ws/build/camera_1/install.log --single-version-externally-managed install_data

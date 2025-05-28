@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing camera_1.egg-info/PKG-INFO
+writing dependency_links to camera_1.egg-info/dependency_links.txt
+writing entry points to camera_1.egg-info/entry_points.txt
+writing requirements to camera_1.egg-info/requires.txt
+writing top-level names to camera_1.egg-info/top_level.txt
+reading manifest file 'camera_1.egg-info/SOURCES.txt'
+writing manifest file 'camera_1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera-1.egg-link (link to .)
+Installing camera_1 script to /home/nikhil/camera_ws/install/camera_1/lib/camera_1
+
+Installed /home/nikhil/camera_ws/build/camera_1
+running symlink_data
+symbolically linking /home/nikhil/camera_ws/build/camera_1/resource/camera_1 -> /home/nikhil/camera_ws/install/camera_1/share/ament_index/resource_index/packages
+symbolically linking /home/nikhil/camera_ws/build/camera_1/package.xml -> /home/nikhil/camera_ws/install/camera_1/share/camera_1

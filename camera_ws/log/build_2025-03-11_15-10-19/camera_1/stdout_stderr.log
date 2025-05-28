@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/camera_1/camera_1.egg-info
+writing ../../build/camera_1/camera_1.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_1/camera_1.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_1/camera_1.egg-info/entry_points.txt
+writing requirements to ../../build/camera_1/camera_1.egg-info/requires.txt
+writing top-level names to ../../build/camera_1/camera_1.egg-info/top_level.txt
+writing manifest file '../../build/camera_1/camera_1.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_1/camera_1.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_1/camera_1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nikhil/camera_ws/build/camera_1/build
+creating /home/nikhil/camera_ws/build/camera_1/build/lib
+creating /home/nikhil/camera_ws/build/camera_1/build/lib/camera_1
+copying camera_1/first_camera.py -> /home/nikhil/camera_ws/build/camera_1/build/lib/camera_1
+copying camera_1/__init__.py -> /home/nikhil/camera_ws/build/camera_1/build/lib/camera_1
+running install
+running install_lib
+creating /home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera_1
+copying /home/nikhil/camera_ws/build/camera_1/build/lib/camera_1/first_camera.py -> /home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera_1
+copying /home/nikhil/camera_ws/build/camera_1/build/lib/camera_1/__init__.py -> /home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera_1
+byte-compiling /home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera_1/first_camera.py to first_camera.cpython-310.pyc
+byte-compiling /home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera_1/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/nikhil/camera_ws/install/camera_1/share/ament_index
+creating /home/nikhil/camera_ws/install/camera_1/share/ament_index/resource_index
+creating /home/nikhil/camera_ws/install/camera_1/share/ament_index/resource_index/packages
+copying resource/camera_1 -> /home/nikhil/camera_ws/install/camera_1/share/ament_index/resource_index/packages
+copying package.xml -> /home/nikhil/camera_ws/install/camera_1/share/camera_1
+running install_egg_info
+Copying ../../build/camera_1/camera_1.egg-info to /home/nikhil/camera_ws/install/camera_1/lib/python3.10/site-packages/camera_1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_1 script to /home/nikhil/camera_ws/install/camera_1/lib/camera_1
+writing list of installed files to '/home/nikhil/camera_ws/build/camera_1/install.log'

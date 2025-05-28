@@ -1,0 +1,10 @@
+[console_scripts]
+camera_1 = camera_1.first_camera:main
+check_1 = camera_1.check_1:main
+check_2 = camera_1.check_2:main
+check_3 = camera_1.check_3:main
+check_4 = camera_1.check_4:main
+detect_aruco = camera_1.detect_aruco:main
+generate_aruco = camera_1.generate_aruco:main
+map_objects = camera_1.map_objects:main
+
