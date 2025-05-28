@@ -1,0 +1,23 @@
+[0.045s] Invoking command in '/home/nikhil/robot/build/moveit_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/robot/build/moveit_scripts -- -j2 -l2
+[0.270s] [100%] Built target action_server
+[0.293s] Invoked command in '/home/nikhil/robot/build/moveit_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/robot/build/moveit_scripts -- -j2 -l2
+[0.294s] Invoking command in '/home/nikhil/robot/build/moveit_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/robot/build/moveit_scripts
+[0.321s] -- Install configuration: ""
+[0.322s] -- Execute custom install script
+[0.323s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/lib/moveit_scripts/action_server
+[0.329s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/package_run_dependencies/moveit_scripts
+[0.329s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/parent_prefix_path/moveit_scripts
+[0.329s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/ament_prefix_path.sh
+[0.329s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/ament_prefix_path.dsv
+[0.329s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/path.sh
+[0.332s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/path.dsv
+[0.332s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.bash
+[0.332s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.sh
+[0.332s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.zsh
+[0.332s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.dsv
+[0.332s] -- Symlinking: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/package.dsv
+[0.381s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/packages/moveit_scripts
+[0.381s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/cmake/moveit_scriptsConfig.cmake
+[0.381s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/cmake/moveit_scriptsConfig-version.cmake
+[0.381s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/package.xml
+[0.457s] Invoked command in '/home/nikhil/robot/build/moveit_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/robot/build/moveit_scripts

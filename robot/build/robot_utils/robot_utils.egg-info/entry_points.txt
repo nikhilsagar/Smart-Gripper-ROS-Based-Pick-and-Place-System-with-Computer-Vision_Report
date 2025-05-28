@@ -1,0 +1,4 @@
+[console_scripts]
+robotic_arm_pick_place_node = robot_utils.robotic_arm_pick_place_node:main
+send_position_command = robot_utils.send_position_command:main
+

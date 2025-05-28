@@ -1,0 +1,1 @@
+/home/nikhil/robot/build/robot_arm_controller/ament_cmake_environment_hooks/local_setup.bash

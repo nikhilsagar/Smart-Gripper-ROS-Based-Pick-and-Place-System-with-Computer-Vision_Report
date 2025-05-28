@@ -1,0 +1,37 @@
+[0.190s] Invoking command in '/home/nikhil/robot/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/robot/build/robot_arm_description -- -j2 -l2
+[0.736s] Invoked command in '/home/nikhil/robot/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/robot/build/robot_arm_description -- -j2 -l2
+[0.893s] Invoking command in '/home/nikhil/robot/build/robot_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/robot/build/robot_arm_description
+[0.940s] -- Install configuration: ""
+[0.948s] -- Execute custom install script
+[0.954s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/meshes/base_link.STL
+[0.956s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/meshes/dummy_link.STL
+[0.959s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/meshes/link_1.STL
+[0.964s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/meshes/link_2.STL
+[0.966s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/meshes/link_3.STL
+[0.967s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/meshes/link_4.STL
+[0.970s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/meshes/link_5.STL
+[0.972s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/meshes/link_6.STL
+[0.975s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/urdf/robot_arm.urdf
+[0.977s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/urdf/robot_arm.urdf.xacro
+[0.982s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/urdf/robot_arm_control.xacro
+[0.983s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/urdf/robot_arm_gazebo.xacro
+[0.986s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/launch/display.launch.py
+[0.987s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/launch/display.launch.xml
+[0.989s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/launch/gazebo.launch.py
+[0.993s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/rviz/robot_arm_rviz.rviz
+[0.995s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/ament_index/resource_index/package_run_dependencies/robot_arm_description
+[1.000s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/ament_index/resource_index/parent_prefix_path/robot_arm_description
+[1.003s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/environment/ament_prefix_path.sh
+[1.003s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/environment/ament_prefix_path.dsv
+[1.005s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/environment/path.sh
+[1.009s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/environment/path.dsv
+[1.009s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/local_setup.bash
+[1.014s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/local_setup.sh
+[1.014s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/local_setup.zsh
+[1.017s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/local_setup.dsv
+[1.021s] -- Symlinking: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/package.dsv
+[1.147s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/ament_index/resource_index/packages/robot_arm_description
+[1.150s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/cmake/robot_arm_descriptionConfig.cmake
+[1.153s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/cmake/robot_arm_descriptionConfig-version.cmake
+[1.155s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_description/share/robot_arm_description/package.xml
+[1.169s] Invoked command in '/home/nikhil/robot/build/robot_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/robot/build/robot_arm_description

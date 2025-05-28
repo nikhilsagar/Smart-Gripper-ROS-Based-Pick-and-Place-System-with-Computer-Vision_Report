@@ -1,0 +1,25 @@
+[0.050s] Invoking command in '/home/nikhil/robot/build/moveit_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/robot/build/moveit_scripts -- -j2 -l2
+[0.387s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[19.654s] [100%] [32m[1mLinking CXX executable action_server[0m
+[21.174s] [100%] Built target action_server
+[21.190s] Invoked command in '/home/nikhil/robot/build/moveit_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/robot/build/moveit_scripts -- -j2 -l2
+[21.195s] Invoking command in '/home/nikhil/robot/build/moveit_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/robot/build/moveit_scripts
+[21.204s] -- Install configuration: ""
+[21.205s] -- Execute custom install script
+[21.207s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/lib/moveit_scripts/action_server
+[21.208s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/package_run_dependencies/moveit_scripts
+[21.208s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/parent_prefix_path/moveit_scripts
+[21.209s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/ament_prefix_path.sh
+[21.210s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/ament_prefix_path.dsv
+[21.210s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/path.sh
+[21.211s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/path.dsv
+[21.211s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.bash
+[21.212s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.sh
+[21.212s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.zsh
+[21.213s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.dsv
+[21.213s] -- Symlinking: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/package.dsv
+[21.225s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/packages/moveit_scripts
+[21.225s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/cmake/moveit_scriptsConfig.cmake
+[21.226s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/cmake/moveit_scriptsConfig-version.cmake
+[21.226s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/package.xml
+[21.229s] Invoked command in '/home/nikhil/robot/build/moveit_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/robot/build/moveit_scripts

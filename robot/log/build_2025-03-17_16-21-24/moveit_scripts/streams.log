@@ -1,0 +1,59 @@
+[0.057s] Invoking command in '/home/nikhil/robot/build/moveit_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/robot/build/moveit_scripts -- -j2 -l2
+[0.238s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.611s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.660s] -- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.716s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.821s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.830s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.852s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.895s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.936s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.325s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.385s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.458s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.465s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.750s] -- Found rclcpp_lifecycle: 16.0.11 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.804s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.878s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.929s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.151s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.189s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.215s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.263s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.309s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.429s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.429s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nikhil/robot/moveit_scripts/include>
+[2.430s] -- Configured cppcheck exclude dirs and/or files: 
+[2.430s] -- Added test 'lint_cmake' to check CMake code style
+[2.430s] -- Added test 'uncrustify' to check C / C++ code style
+[2.431s] -- Configured uncrustify additional arguments: 
+[2.431s] -- Added test 'xmllint' to check XML markup files
+[2.439s] -- Configuring done
+[2.534s] -- Generating done
+[2.543s] -- Build files have been written to: /home/nikhil/robot/build/moveit_scripts
+[2.611s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[2.649s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[15.148s] [100%] [32m[1mLinking CXX executable action_server[0m
+[16.636s] [100%] Built target action_server
+[16.652s] Invoked command in '/home/nikhil/robot/build/moveit_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/robot/build/moveit_scripts -- -j2 -l2
+[16.654s] Invoking command in '/home/nikhil/robot/build/moveit_scripts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/robot/build/moveit_scripts
+[16.665s] -- Install configuration: ""
+[16.666s] -- Execute custom install script
+[16.669s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/lib/moveit_scripts/action_server
+[16.670s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/package_run_dependencies/moveit_scripts
+[16.670s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/parent_prefix_path/moveit_scripts
+[16.671s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/ament_prefix_path.sh
+[16.672s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/ament_prefix_path.dsv
+[16.673s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/path.sh
+[16.673s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/path.dsv
+[16.674s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.bash
+[16.675s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.sh
+[16.675s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.zsh
+[16.675s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.dsv
+[16.675s] -- Symlinking: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/package.dsv
+[16.690s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/packages/moveit_scripts
+[16.692s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/cmake/moveit_scriptsConfig.cmake
+[16.692s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/cmake/moveit_scriptsConfig-version.cmake
+[16.696s] -- Up-to-date symlink: /home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/package.xml
+[16.696s] Invoked command in '/home/nikhil/robot/build/moveit_scripts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/robot/build/moveit_scripts

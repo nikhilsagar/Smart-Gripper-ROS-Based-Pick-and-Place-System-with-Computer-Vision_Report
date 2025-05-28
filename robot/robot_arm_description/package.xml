@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>robot_arm_description</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="nikhil@todo.todo">nikhil</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Run dependencies -->
+  <depend>rclcpp</depend> <!-- ROS 2 client library -->
+  <depend>sensor_msgs</depend> <!-- For sensor messages like JointState -->
+  <depend>robot_state_publisher</depend> <!-- For publishing robot state -->
+  <depend>joint_state_publisher_gui</depend> <!-- For GUI to control joint states -->
+  <depend>rviz2</depend> <!-- For visualization in RViz -->
+  <depend>xacro</depend> <!-- For processing XACRO files -->
+  <depend>geometry_msgs</depend> <!-- Common geometry messages, e.g., Pose, Point -->
+  <depend>urdf</depend> <!-- URDF dependency for robot description -->
+  <depend>launch</depend> <!-- Launch dependency -->
+  <depend>launch_ros</depend> <!-- ROS 2 specific launch dependency -->
+  <depend>ros_gz_bridge</depend> <!-- For bridging ROS 2 and Gazebo -->
+  <depend>ros_ign_bridge</depend>
+  <depend>ros_gz_sim</depend> <!-- For Gazebo simulation integration -->
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+
+   <!-- Include both control plugins (runtime selection is handled in CMake) -->
+  <depend>gz_ros2_control</depend> <!-- For Gazebo Classic -->
+  <depend>ign_ros2_control</depend> <!-- For Ignition Gazebo -->
+  <depend>gazebo_ros2_control</depend> <!-- Ensure support for Classic Gazebo -->
+
+  
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

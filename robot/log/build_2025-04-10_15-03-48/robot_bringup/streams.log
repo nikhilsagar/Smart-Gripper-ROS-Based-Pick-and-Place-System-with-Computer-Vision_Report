@@ -1,0 +1,16 @@
+[2.056s] Invoking command in '/home/nikhil/robot/build/robot_bringup': PYTHONPATH=/home/nikhil/robot/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikhil/robot/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nikhil/robot/build/robot_bringup/build --no-deps symlink_data
+[2.530s] running develop
+[2.819s] running egg_info
+[2.819s] writing robot_bringup.egg-info/PKG-INFO
+[2.820s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[2.821s] writing entry points to robot_bringup.egg-info/entry_points.txt
+[2.821s] writing requirements to robot_bringup.egg-info/requires.txt
+[2.821s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[2.823s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[2.824s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[2.826s] running build_ext
+[2.827s] Creating /home/nikhil/robot/install/robot_bringup/lib/python3.10/site-packages/robot-bringup.egg-link (link to .)
+[2.828s] 
+[2.828s] Installed /home/nikhil/robot/build/robot_bringup
+[2.829s] running symlink_data
+[2.900s] Invoked command in '/home/nikhil/robot/build/robot_bringup' returned '0': PYTHONPATH=/home/nikhil/robot/build/robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikhil/robot/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nikhil/robot/build/robot_bringup/build --no-deps symlink_data

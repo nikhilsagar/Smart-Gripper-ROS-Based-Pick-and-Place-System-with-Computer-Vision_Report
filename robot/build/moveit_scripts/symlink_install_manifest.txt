@@ -1,0 +1,16 @@
+/home/nikhil/robot/install/moveit_scripts/lib/moveit_scripts/action_server
+/home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/package_run_dependencies/moveit_scripts
+/home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/parent_prefix_path/moveit_scripts
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/ament_prefix_path.sh
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/ament_prefix_path.dsv
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/path.sh
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/environment/path.dsv
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.bash
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.sh
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.zsh
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/local_setup.dsv
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/package.dsv
+/home/nikhil/robot/install/moveit_scripts/share/ament_index/resource_index/packages/moveit_scripts
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/cmake/moveit_scriptsConfig.cmake
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/cmake/moveit_scriptsConfig-version.cmake
+/home/nikhil/robot/install/moveit_scripts/share/moveit_scripts/package.xml

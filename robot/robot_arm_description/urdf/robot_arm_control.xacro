@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="robot_arm_description" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Use ros2_control plugin for Ignition Gazebo -->
+  <ros2_control type="system" name="RobotSystem">
+
+    <!-- Select the correct Gazebo plugin based on is_ignition -->
+    <xacro:if value="$(arg is_ignition)">
+      <hardware>
+        <plugin>ign_ros2_control/IgnitionSystem</plugin>
+      </hardware>
+    </xacro:if>
+
+    <xacro:unless value="$(arg is_ignition)">
+      <hardware>
+        <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+      </hardware>
+    </xacro:unless>
+
+    <!-- Define Joints with Position Interface Only -->
+    <joint name="joint_1">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+      <limit effort="1.35" velocity="5.5"/>
+    </joint>
+
+    <joint name="joint_2">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+      <limit effort="1.35" velocity="5.5"/>
+    </joint>
+
+    <joint name="joint_3">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+      <limit effort="1.35" velocity="5.5"/>
+    </joint>
+
+    <joint name="joint_4">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+      <limit effort="1.35" velocity="5.5"/>
+    </joint>
+
+    <joint name="joint_5">
+      <command_interface name="position">
+        <param name="min">-0.03</param>
+        <param name="max">0.0</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+      <limit effort="1.35" velocity="5.5"/>
+    </joint>
+
+    <!-- Joint 6 Mimics Joint 5 -->
+    <joint name="joint_6">
+      <command_interface name="position">
+        <param name="min">0</param>
+        <param name="max">0.03</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <mimic joint="joint_5" multiplier="-1" offset="0"/>
+    </joint>
+
+    
+    <!-- <joint name="dummy_joint">
+      <state_interface name="position"/>
+    </joint> -->
+
+
+  </ros2_control>
+
+</robot>

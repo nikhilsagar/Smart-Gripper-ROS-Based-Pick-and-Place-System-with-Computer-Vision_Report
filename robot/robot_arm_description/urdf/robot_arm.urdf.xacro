@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<robot name="robot_arm_description" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    
+    <xacro:arg name="is_ignition" default="True"/>
+
+    
+    <!-- Include the Gazebo plugin configuration -->
+    <xacro:include filename="$(find robot_arm_description)/urdf/robot_arm_gazebo.xacro" />
+    <xacro:include filename="$(find robot_arm_description)/urdf/robot_arm_control.xacro" />
+  
+  
+
+   <!-- Links -->
+  <link name="world"/>
+  
+   <!-- Joints -->  
+  <joint name="virtual_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint> 
+
+
+  <!-- Base Link without Inertia -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1.0"/> 
+      <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/> 
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/base_link.STL"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.79216 0.81961 0.93333 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/base_link.STL"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 1 -->
+  <joint name="joint_1" type="revolute">
+    <origin xyz="0 0 0.063" rpy="1.5708 0 1.5708"/>
+    <parent link="base_link"/>
+    <child link="link_1"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.57" upper="1.57" effort="1.35" velocity="20.12"/>
+  </joint>
+
+  <!-- Link 1 -->
+  <link name="link_1">
+    <inertial>
+      <origin xyz="2.6152E-08 0.035089 0.00070571" rpy="0 0 0"/>
+      <mass value="0.088226"/>
+      <inertia ixx="3.5564E-05" ixy="-7.7325E-09" ixz="3.0407E-12" 
+               iyy="2.4365E-05" iyz="-3.8251E-08" izz="3.8253E-05"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_1.STL"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.79216 0.81961 0.93333 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_1.STL"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 2 -->
+  <joint name="joint_2" type="revolute">
+    <origin xyz="0 0.064 0" rpy="1.5533 1.5708 0"/>
+    <parent link="link_1"/>
+    <child link="link_2"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.57" upper="1.57" effort="1.35" velocity="20.12"/>
+  </joint>
+
+  <!-- Link 2 -->
+  <link name="link_2">
+    <inertial>
+      <origin xyz="-7.7387E-05 0.015464 -0.15988" rpy="0 0 0"/>
+      <mass value="0.12853"/>
+      <inertia ixx="0.00013873" ixy="-6.7888E-07" ixz="5.6388E-07"
+               iyy="0.00013845" iyz="6.6229E-06" izz="3.5101E-05"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_2.STL"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.79216 0.81961 0.93333 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_2.STL"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 3 -->
+  <joint name="joint_3" type="revolute">
+    <origin xyz="0 0.045308 -0.25017" rpy="0.35539 0.63117 0.21561"/>
+    <parent link="link_2"/>
+    <child link="link_3"/>
+    <axis xyz="-0.78864 0 -0.61485"/>
+    <limit lower="-1.57" upper="1.57" effort="1.35" velocity="20.12"/>
+  </joint>
+
+  <!-- Link 3 -->
+  <link name="link_3">
+    <inertial>
+      <origin xyz="0.012111 0.12658 -0.021361" rpy="0 0 0"/>
+      <mass value="0.14257"/>
+      <inertia ixx="0.00014411" ixy="-1.8273E-05" ixz="6.0496E-07"
+               iyy="3.4503E-05" iyz="2.3073E-05" izz="0.00014132"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_3.STL"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.79216 0.81961 0.93333 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_3.STL"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 4 -->
+  <joint name="joint_4" type="revolute">
+    <origin xyz="0.020718 0.22568 -0.026574" rpy="0.35965 -0.050844 0.27795"/>
+    <parent link="link_3"/>
+    <child link="link_4"/>
+    <axis xyz="-0.78864 0 -0.61485"/>
+    <limit lower="-1.57" upper="1.57" effort="1.35" velocity="20.12"/>
+  </joint>
+
+  <!-- Link 4 -->
+  <link name="link_4">
+    <inertial>
+      <origin xyz="0.021507 0.041633 -0.036882" rpy="0 0 0"/>
+      <mass value="0.096051"/>
+      <inertia ixx="3.672E-05" ixy="-1.4508E-06" ixz="3.6397E-07"
+                iyy="3.5201E-05" iyz="1.899E-06" izz="3.662E-05"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_4.STL"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.79216 0.81961 0.93333 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_4.STL"/>
+      </geometry>
+    </collision>
+  </link>
+
+<!-- ========================= Dummy Link Definition ========================= -->
+<link name="dummy_link">
+    <inertial>
+        <!-- Inertia properties of dummy_link -->
+        <origin xyz="0 0.0025 0.000500000000000001" rpy="0 0 0"/>
+        <mass value="5.0000000000001E-06"/>
+        <inertia 
+            ixx="1.08333333333334E-11" ixy="-1.39155063680986E-27" ixz="1.10935197335756E-28"
+            iyy="8.33333333333374E-13" iyz="6.29916623584742E-27" izz="1.08333333333335E-11"
+        />
+    </inertial>
+
+    <visual>
+        <!-- Visual representation using a mesh file -->
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <mesh filename="package://robot_arm_description/meshes/dummy_link.STL"/>
+        </geometry>
+        <material name="">
+            <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1"/>
+        </material>
+    </visual>
+
+    <collision>
+        <!-- Collision properties using the same mesh file -->
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <mesh filename="package://robot_arm_description/meshes/dummy_link.STL"/>
+        </geometry>
+    </collision>
+</link>
+<!-- ===================== End of Dummy Link Definition ===================== -->
+
+
+<!-- ========================= Dummy Joint Definition ========================= -->
+<joint name="dummy_joint" type="fixed">
+    <!-- Position and orientation of the joint connecting dummy_link to link_4 -->
+    <origin xyz="0.028884 0.095638 -0.045587" rpy="-2.4442 -0.63995 2.19"/>
+    <parent link="link_4"/>
+    <child link="dummy_link"/>
+
+    <!-- Prismatic joint with movement along the Z-axis -->
+    <axis xyz="0 0 1"/>
+
+    <!-- Joint limits (currently locked with lower=upper=0) -->
+    <!-- <limit lower="0" upper="0" effort="0" velocity="0"/> -->
+</joint>
+<!-- ===================== End of Dummy Joint Definition ===================== -->
+
+
+  <!-- Joint 5 -->
+  <joint name="joint_5" type="prismatic">
+    <origin xyz="-0.21116 0.021122 0.31578" rpy="-2.0002 0.60545 1.964"/>
+    <parent link="link_4"/>
+    <child link="link_5"/>
+    <axis xyz="0.59842 0 0.80119"/>
+    <limit lower="-0.03" upper="0" effort="10.0" velocity="20.12"/>
+  </joint>
+
+  <!-- Link 5 -->
+  <link name="link_5">
+    <inertial>
+      <origin xyz="0.19371 0.41234 -0.10632" rpy="0 0 0"/>
+      <mass value="0.0095399"/>
+      <inertia ixx="2.2249E-06" ixy="-3.9768E-07" ixz="7.8333E-07"
+               iyy="1.7553E-06" iyz="2.2835E-07" izz="2.8965E-06"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_5.STL"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.79216 0.81961 0.93333 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_5.STL"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Joint 6 -->
+  <joint name="joint_6" type="prismatic">
+    <origin xyz="-0.21426 0.021122 0.31336" rpy="-2.281 -0.16752 0.87925"/>
+    <parent link="link_4"/>
+    <child link="link_6"/>
+    <axis xyz="-0.59842 0 0.80119"/>
+    <limit lower="0" upper="0.03" effort="10.0" velocity="20.12"/>
+    <mimic joint="joint_5" multiplier="-1" offset="0"/>
+  </joint>
+
+  <!-- Link 6 -->
+  <link name="link_6">
+    <inertial>
+      <origin xyz="0.15611 0.41234 0.15665" rpy="0 0 0"/>
+      <mass value="0.0095399"/>
+      <inertia ixx="2.2249E-06" ixy="-3.9768E-07" ixz="-7.8333E-07"
+               iyy="1.7553E-06" iyz="-2.2835E-07" izz="2.8965E-06"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_6.STL"/>
+      </geometry>
+      <material name="">
+        <color rgba="0.79216 0.81961 0.93333 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://robot_arm_description/meshes/link_6.STL"/>
+      </geometry>
+    </collision>
+  </link>
+
+</robot>

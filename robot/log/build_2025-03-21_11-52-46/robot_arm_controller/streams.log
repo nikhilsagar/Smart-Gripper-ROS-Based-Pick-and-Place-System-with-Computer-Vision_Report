@@ -1,0 +1,35 @@
+[0.028s] Invoking command in '/home/nikhil/robot/build/robot_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/nikhil/robot/robot_arm_controller -DCMAKE_INSTALL_PREFIX=/home/nikhil/robot/install/robot_arm_controller
+[0.048s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.288s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.302s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.485s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.485s] -- Added test 'lint_cmake' to check CMake code style
+[0.486s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.486s] -- Added test 'xmllint' to check XML markup files
+[0.490s] -- Configuring done
+[0.502s] -- Generating done
+[0.508s] -- Build files have been written to: /home/nikhil/robot/build/robot_arm_controller
+[0.518s] Invoked command in '/home/nikhil/robot/build/robot_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake /home/nikhil/robot/robot_arm_controller -DCMAKE_INSTALL_PREFIX=/home/nikhil/robot/install/robot_arm_controller
+[0.519s] Invoking command in '/home/nikhil/robot/build/robot_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/robot/build/robot_arm_controller -- -j2 -l2
+[0.599s] Invoked command in '/home/nikhil/robot/build/robot_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/robot/build/robot_arm_controller -- -j2 -l2
+[0.599s] Invoking command in '/home/nikhil/robot/build/robot_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/robot/build/robot_arm_controller
+[0.620s] -- Install configuration: ""
+[0.620s] -- Execute custom install script
+[0.626s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/config/robot_arm_controllers.yaml
+[0.628s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/launch/controller.launch.py
+[0.631s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/ament_index/resource_index/package_run_dependencies/robot_arm_controller
+[0.633s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/ament_index/resource_index/parent_prefix_path/robot_arm_controller
+[0.637s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/environment/ament_prefix_path.sh
+[0.637s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/environment/ament_prefix_path.dsv
+[0.638s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/environment/path.sh
+[0.638s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/environment/path.dsv
+[0.642s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/local_setup.bash
+[0.643s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/local_setup.sh
+[0.644s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/local_setup.zsh
+[0.644s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/local_setup.dsv
+[0.645s] -- Symlinking: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/package.dsv
+[0.664s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/ament_index/resource_index/packages/robot_arm_controller
+[0.666s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/cmake/robot_arm_controllerConfig.cmake
+[0.667s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/cmake/robot_arm_controllerConfig-version.cmake
+[0.667s] -- Up-to-date symlink: /home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/package.xml
+[0.671s] Invoked command in '/home/nikhil/robot/build/robot_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/arm_ws/install/robot_arm_py_examples:/home/nikhil/arm_ws/install/arm_py:/home/nikhil/camera_ws/install/camera_1:/home/nikhil/copy/install/robot_arm_py_examples:/home/nikhil/copy/install/arm_py:/home/nikhil/ros2_ws/install/turtlesim_catch_them_all:/home/nikhil/ros2_ws/install/my_py_pkg:/home/nikhil/ros2_ws/install/camera_project:/home/nikhil/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/robot/build/robot_arm_controller

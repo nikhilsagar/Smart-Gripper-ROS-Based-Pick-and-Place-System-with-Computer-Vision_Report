@@ -1,0 +1,17 @@
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/config/robot_arm_controllers.yaml
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/launch/controller.launch.py
+/home/nikhil/robot/install/robot_arm_controller/share/ament_index/resource_index/package_run_dependencies/robot_arm_controller
+/home/nikhil/robot/install/robot_arm_controller/share/ament_index/resource_index/parent_prefix_path/robot_arm_controller
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/environment/ament_prefix_path.sh
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/environment/ament_prefix_path.dsv
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/environment/path.sh
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/environment/path.dsv
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/local_setup.bash
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/local_setup.sh
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/local_setup.zsh
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/local_setup.dsv
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/package.dsv
+/home/nikhil/robot/install/robot_arm_controller/share/ament_index/resource_index/packages/robot_arm_controller
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/cmake/robot_arm_controllerConfig.cmake
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/cmake/robot_arm_controllerConfig-version.cmake
+/home/nikhil/robot/install/robot_arm_controller/share/robot_arm_controller/package.xml

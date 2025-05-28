@@ -1,0 +1,37 @@
+[1.423s] Invoking command in '/home/nikhil/robot/robot_utils': PYTHONPATH=/home/nikhil/robot/build/robot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikhil/robot/install/robot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_utils build --build-base /home/nikhil/robot/build/robot_utils/build install --record /home/nikhil/robot/build/robot_utils/install.log --single-version-externally-managed install_data
+[1.708s] running egg_info
+[1.708s] creating ../build/robot_utils/robot_utils.egg-info
+[1.708s] writing ../build/robot_utils/robot_utils.egg-info/PKG-INFO
+[1.709s] writing dependency_links to ../build/robot_utils/robot_utils.egg-info/dependency_links.txt
+[1.709s] writing entry points to ../build/robot_utils/robot_utils.egg-info/entry_points.txt
+[1.710s] writing requirements to ../build/robot_utils/robot_utils.egg-info/requires.txt
+[1.712s] writing top-level names to ../build/robot_utils/robot_utils.egg-info/top_level.txt
+[1.712s] writing manifest file '../build/robot_utils/robot_utils.egg-info/SOURCES.txt'
+[1.716s] reading manifest file '../build/robot_utils/robot_utils.egg-info/SOURCES.txt'
+[1.716s] writing manifest file '../build/robot_utils/robot_utils.egg-info/SOURCES.txt'
+[1.717s] running build
+[1.717s] running build_py
+[1.717s] creating /home/nikhil/robot/build/robot_utils/build
+[1.718s] creating /home/nikhil/robot/build/robot_utils/build/lib
+[1.718s] creating /home/nikhil/robot/build/robot_utils/build/lib/robot_utils
+[1.718s] copying robot_utils/__init__.py -> /home/nikhil/robot/build/robot_utils/build/lib/robot_utils
+[1.719s] copying robot_utils/send_position_command.py -> /home/nikhil/robot/build/robot_utils/build/lib/robot_utils
+[1.719s] running install
+[1.719s] running install_lib
+[1.721s] creating /home/nikhil/robot/install/robot_utils/lib/python3.10/site-packages/robot_utils
+[1.721s] copying /home/nikhil/robot/build/robot_utils/build/lib/robot_utils/__init__.py -> /home/nikhil/robot/install/robot_utils/lib/python3.10/site-packages/robot_utils
+[1.722s] copying /home/nikhil/robot/build/robot_utils/build/lib/robot_utils/send_position_command.py -> /home/nikhil/robot/install/robot_utils/lib/python3.10/site-packages/robot_utils
+[1.722s] byte-compiling /home/nikhil/robot/install/robot_utils/lib/python3.10/site-packages/robot_utils/__init__.py to __init__.cpython-310.pyc
+[1.722s] byte-compiling /home/nikhil/robot/install/robot_utils/lib/python3.10/site-packages/robot_utils/send_position_command.py to send_position_command.cpython-310.pyc
+[1.723s] running install_data
+[1.724s] creating /home/nikhil/robot/install/robot_utils/share/ament_index
+[1.725s] creating /home/nikhil/robot/install/robot_utils/share/ament_index/resource_index
+[1.725s] creating /home/nikhil/robot/install/robot_utils/share/ament_index/resource_index/packages
+[1.725s] copying resource/robot_utils -> /home/nikhil/robot/install/robot_utils/share/ament_index/resource_index/packages
+[1.725s] copying package.xml -> /home/nikhil/robot/install/robot_utils/share/robot_utils
+[1.725s] running install_egg_info
+[1.727s] Copying ../build/robot_utils/robot_utils.egg-info to /home/nikhil/robot/install/robot_utils/lib/python3.10/site-packages/robot_utils-0.0.0-py3.10.egg-info
+[1.728s] running install_scripts
+[1.748s] Installing send_position_command script to /home/nikhil/robot/install/robot_utils/lib/robot_utils
+[1.749s] writing list of installed files to '/home/nikhil/robot/build/robot_utils/install.log'
+[1.777s] Invoked command in '/home/nikhil/robot/robot_utils' returned '0': PYTHONPATH=/home/nikhil/robot/build/robot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikhil/robot/install/robot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_utils build --build-base /home/nikhil/robot/build/robot_utils/build install --record /home/nikhil/robot/build/robot_utils/install.log --single-version-externally-managed install_data

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Define the robot_description parameter by processing the XACRO file -->
+  <param name="robot_description" value="$(find robot_arm_description)/urdf/robot_arm.urdf.xacro"/>
+
+  <!-- Run robot_state_publisher node -->
+  <node pkg="robot_state_publisher" exec="robot_state_publisher" name="robot_state_publisher" output="screen">
+    <param name="robot_description" value="$(param robot_description)"/>
+  </node>
+  
+  <!-- Optionally, you can add other nodes like joint_state_publisher_gui or rviz here -->
+  <!-- Example: Launch joint_state_publisher_gui -->
+  <node pkg="joint_state_publisher_gui" exec="joint_state_publisher_gui" name="joint_state_publisher_gui" output="screen"/>
+
+  <!-- Example: Launch RViz -->
+  <node pkg="rviz2" exec="rviz2" name="rviz2" output="screen">
+    <param name="config" value="$(find robot_arm_description)/rviz/robot_arm_rviz.rviz"/>
+  </node>
+</launch>

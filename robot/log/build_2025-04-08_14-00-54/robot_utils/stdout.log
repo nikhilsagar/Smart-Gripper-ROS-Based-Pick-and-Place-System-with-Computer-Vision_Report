@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing robot_utils.egg-info/PKG-INFO
+writing dependency_links to robot_utils.egg-info/dependency_links.txt
+writing entry points to robot_utils.egg-info/entry_points.txt
+writing requirements to robot_utils.egg-info/requires.txt
+writing top-level names to robot_utils.egg-info/top_level.txt
+reading manifest file 'robot_utils.egg-info/SOURCES.txt'
+writing manifest file 'robot_utils.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nikhil/robot/install/robot_utils/lib/python3.10/site-packages/robot-utils.egg-link (link to .)
+Installing send_position_command script to /home/nikhil/robot/install/robot_utils/lib/robot_utils
+
+Installed /home/nikhil/robot/build/robot_utils
+running symlink_data
