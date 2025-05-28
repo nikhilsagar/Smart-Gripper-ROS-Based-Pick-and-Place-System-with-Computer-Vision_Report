@@ -1,36 +1,105 @@
-# Smart-Gripper-ROS-Based-Pick-and-Place-System-with-Computer-Vision_Report
-PREPARE WORKSPACE:
-source install/setup.bash #Inside your workspace
-colcon build              #Inside your workspace
+# Smart Gripper: ROS-Based Pick-and-Place System with Computer Vision
 
-START GAZEBO:
+This project implements a ROS2-based robotic arm capable of performing pick-and-place tasks using computer vision. The system uses Gazebo for simulation, MoveIt for motion planning, and a custom inverse kinematics (IK) action server for trajectory control.
+
+---
+
+## 📁 Workspace Preparation
+
+Before starting, build and source your workspace:
+
+```bash
+source install/setup.bash   # Inside your workspace
+colcon build                # Inside your workspace
+```
+
+---
+
+## 🚀 Launch Instructions
+
+### 🏗️ Start Gazebo
+
+```bash
 ros2 launch robot_arm_description gazebo.launch.py
 ros2 launch robot_arm_controller controller.launch.py
+```
 
-START MOVEIT:
+### 🤖 Start MoveIt
+
+```bash
 ros2 launch moveit3 move_group.launch.py
 ros2 launch moveit3 moveit_rviz.launch.py
+```
 
-START ACTION SERVER
+### 🧠 Start Action Server
+
+```bash
 ros2 run moveit_scripts action_server
+```
 
-TEST ACTION SERVER:
-ros2 action send_goal /follow_ik_trajectory control_msgs/action/FollowJointTrajectory "{trajectory: { points: [{positions: [0.2, 0.25, 0.2, -0.75]}]}}"
-# Formatted as [x, y, z, orientation], the orientation is the end effectors angle relative to the horizontal plane in radians
+---
 
-CURRENT END EFFECTOR POSITION/ORIENTATION:
+## 🧪 Testing the Action Server
+
+Send a goal to the custom IK action server:
+
+```bash
+ros2 action send_goal /follow_ik_trajectory control_msgs/action/FollowJointTrajectory 
+"{trajectory: { points: [{positions: [0.2, 0.25, 0.2, -0.75]}]}}"
+```
+
+- The goal is formatted as: `[x, y, z, orientation]`
+- `orientation` = end effector’s angle relative to the horizontal plane (in radians)
+
+---
+
+## 📍 Current End Effector Pose
+
+To view the live pose of the end effector:
+
+```bash
 ros2 run tf2_ros tf2_echo base_link dummy_link
+```
 
-Make sure to change the following line in the robot_arm.urdf inside the robot_arm_description package
+---
+
+## ⚠️ Important Configuration Change
+
+Make sure to update the following line in the `robot_arm.urdf` file inside the `robot_arm_description` package:
+
+```xml
 <parameters>/home/ahmed/ros2_ws/src/robot_arm_controller/config/robot_arm_controllers.yaml</parameters>
-----------------------------------------------------------
-The action server calculates where the wrist joints needs to be to achieve the desired end effector position and orientation, calculates the position only IK up to link_4 (which has the same origin of frame as joint_4, the wrist) with getPositionIK(), which returns the values for joints 1-3, calculates the exact wrist angle needed (joint_4) to achieve the desired dummy_link (end effector origin) position and orientation and finally send the 4 joint values to setJointValueTarget()
+```
 
-The action server basically calculates orientation and position inverse kinematics using moveit's position only mode since moveit's built in position and orientation IK plugins have failed; this approach isn't as accurate, likely due to an innacurate representation of the URDF model inside the program, but an added compensation function reduced the error to a maximum of 5mm and 2 degrees.
+> Replace with the correct path to your own `robot_arm_controllers.yaml` file.
 
+---
 
+## 🧠 How the Action Server Works
+
+The custom action server:
+
+- Calculates the position-only IK (joints 1–3) using MoveIt's `getPositionIK()`
+- Determines the wrist joint angle (joint 4) needed to achieve the desired pose
+- Sends the computed joint values to MoveIt's `setJointValueTarget()`
+
+> **Why not use full IK?**  
+MoveIt's position-and-orientation IK plugin was unreliable due to URDF inaccuracies. This workaround uses position-only IK with a compensation function that reduces final error to within **5 mm** and **2°**.
+
+---
+
+## 🔌 Serial Communication (for hardware interface)
+
+```bash
 minicom -b 115200 -D /dev/ttyACM0
+```
 
+Make sure UVC video drivers are loaded:
 
-
+```bash
 sudo modprobe uvcvideo
+```
+
+---
+
+
