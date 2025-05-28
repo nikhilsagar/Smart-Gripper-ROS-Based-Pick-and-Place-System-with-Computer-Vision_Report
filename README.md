@@ -4,6 +4,11 @@ This project implements a ROS2-based robotic arm capable of performing pick-and-
 
 ---
 
+## 🎥 Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/3q7pzVAd7P8/hqdefault.jpg)](https://youtu.be/3q7pzVAd7P8)
+---
+
 ## 📁 Workspace Preparation
 
 Before starting, build and source your workspace:
