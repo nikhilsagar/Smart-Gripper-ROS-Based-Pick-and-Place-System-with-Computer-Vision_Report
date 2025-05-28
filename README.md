@@ -68,7 +68,7 @@ ros2 run tf2_ros tf2_echo base_link dummy_link
 Make sure to update the following line in the `robot_arm.urdf` file inside the `robot_arm_description` package:
 
 ```xml
-<parameters>/home/ahmed/ros2_ws/src/robot_arm_controller/config/robot_arm_controllers.yaml</parameters>
+<parameters>/home/robot/src/robot_arm_controller/config/robot_arm_controllers.yaml</parameters>
 ```
 
 > Replace with the correct path to your own `robot_arm_controllers.yaml` file.
